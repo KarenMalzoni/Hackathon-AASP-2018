@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="360.0" prefWidth="541.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="privyfxml_aasp.PrivyFXMLController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Label fx:id="wellcome_text" layoutX="206.0" layoutY="144.0" prefHeight="38.0" prefWidth="227.0" text="Insira sua assinatura digital:" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField id="digital_signature" layoutX="199.0" layoutY="210.0" prefHeight="25.0" prefWidth="240.0" />
+      <Button id="login_button" fx:id="login_button" layoutX="220.0" layoutY="258.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="198.0" text="Entrar" />
+      <ImageView id="logotipo" fitHeight="139.0" fitWidth="150.0" layoutX="24.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@LOGO.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

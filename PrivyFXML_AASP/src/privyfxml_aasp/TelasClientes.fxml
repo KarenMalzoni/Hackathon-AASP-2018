@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="privyfxml_aasp.TelasClientesController">
+    <stylesheets>
+        <URL value="@telasclientes.css" />
+    </stylesheets>
+   <children>
+      <ImageView fitHeight="115.0" fitWidth="107.0" layoutX="20.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@LOGO.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="89.0" layoutY="144.0" prefHeight="34.0" prefWidth="305.0" text="ANTÕNIO JOSE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="connect0" layoutX="400.0" layoutY="148.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="66.0" text="Conectar" />
+      <Label layoutX="89.0" layoutY="200.0" prefHeight="34.0" prefWidth="305.0" text="CARLOS SILVA">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="89.0" layoutY="258.0" prefHeight="34.0" prefWidth="305.0" text="RODRIGO MELO">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Line endX="100.0" layoutX="175.0" layoutY="186.0" startX="-100.0" stroke="#ae6d1e" />
+      <Line endX="100.0" layoutX="376.0" layoutY="186.0" startX="-100.0" stroke="#ae6d1e" />
+      <Button fx:id="connect1" layoutX="400.0" layoutY="204.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="66.0" text="Conectar" />
+      <Line endX="100.0" layoutX="175.0" layoutY="242.0" startX="-100.0" stroke="#ae6d1e" />
+      <Line endX="100.0" layoutX="376.0" layoutY="242.0" startX="-100.0" stroke="#ae6d1e" />
+      <Button fx:id="connect2" layoutX="400.0" layoutY="262.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="66.0" text="Conectar" />
+      <TextField layoutX="285.0" layoutY="95.0" promptText="search" />
+      <Button defaultButton="true" layoutX="466.0" layoutY="332.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="79.0" text="Novo canal" textOverrun="CENTER_ELLIPSIS" />
+      <ImageView fitHeight="25.0" fitWidth="22.0" layoutX="446.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@if_search_322497.png" />
+         </image>
+      </ImageView>
+      <Text fill="#5e5b5b" layoutX="14.0" layoutY="390.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Luiz, OAB: 342">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="423.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sair" />
+   </children>
+</AnchorPane>

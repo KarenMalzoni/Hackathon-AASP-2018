@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="privyproject.TelaConversaController">
+    <stylesheets>
+        <URL value="@telaconversa.css" />
+    </stylesheets>
+   <children>
+      <ImageView fitHeight="89.0" fitWidth="92.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Users/Karen/Documents/LOGO.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="3.0" fill="#fcfcfc" height="211.0" layoutX="59.0" layoutY="119.0" mouseTransparent="true" opacity="0.12" stroke="BLACK" strokeType="INSIDE" width="491.0" />
+      <TextField layoutX="59.0" layoutY="337.0" prefHeight="36.0" prefWidth="491.0" />
+   </children>
+</AnchorPane>
